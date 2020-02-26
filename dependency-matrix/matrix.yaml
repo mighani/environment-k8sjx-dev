@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: mighani
+  repo: jxspring
+  url: https://github.com/mighani/jxspring.git
+  version: ""
+  versionURL: ""
