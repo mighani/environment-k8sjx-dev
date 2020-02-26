@@ -1,0 +1,15 @@
+adminUser:
+  password: local:k8sjx/adminUser:password
+  username: admin
+docker:
+  email: mighani@skillbyte.de
+  password: local:k8sjx/docker:password
+  url: https://index.docker.io/v1/
+  username: mighani
+enableDocker: true
+pipelineUser:
+  email: mighani@skillbyte.de
+  token: local:k8sjx/pipelineUser:token
+  username: mighani
+prow:
+  hmacToken: local:k8sjx/prow:hmacToken
