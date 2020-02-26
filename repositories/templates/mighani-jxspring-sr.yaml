@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: mighani
+    provider: github
+    repository: jxspring
+  name: mighani-jxspring
+spec:
+  description: Imported application for mighani/jxspring
+  httpCloneURL: https://github.com/mighani/jxspring.git
+  org: mighani
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jxspring
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/mighani/jxspring.git
